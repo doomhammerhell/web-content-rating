@@ -5,6 +5,9 @@ import Post from "./components/post";
 import db from "./lib/firebase";
 
 const App = () => {
+
+  console.log("%c Built by Mayckon Giovani: https://github.com/doomhammerhell/web-content-rating ", "color: #bada55; font-size: 0.8rem");
+
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
